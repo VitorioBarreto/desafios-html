@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte1';
+    src: url(idroid.otf);
+}
+
+
+  
+
+.cabeçalho { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+p {text-align: justify;}
+
+main {background-color: aliceblue;
+    
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+   
+    margin: auto;
+}
+p {text-indent: 20px;}
+
+    
+header {background-image: linear-gradient(to bottom, rgb(80, 203, 152), rgb(15, 77, 23));
+color: aliceblue;
+margin: auto;
+text-align: center;
+padding: 10px;
+padding-top: 20px;
+min-height: 150px;}
+
+header > h1 {margin: 0px; font-size: 2em; text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.539);}
+header > nav > a {color: aliceblue; text-decoration: none; padding: 15px 5px; border-radius: 5px; transition-duration: 0.5s;}
+header > nav {text-align: left; margin-top: 30px; font-size: 0.8em;  padding: 10px; 
+}
+header > p {text-align: center; font-size: 0.9em; text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.539); }
+header > h1 > p {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+nav > a:hover { background-color: rgb(69, 165, 106); color: black;
+
+}
+
+.historia { font-family: 'fonte1'; color: rgb(32, 80, 37);}
+
+h2 {font-family: 'fonte1'; color: rgb(32, 80, 37); background-image: linear-gradient(to right, rgba(0, 128, 0, 0.356), rgba(255, 255, 255, 0.646)) ;}
+
+
+
+
+body {background-color: rgb(109, 227, 162);
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {color: green;}
+
+
+
+footer{ background-color: green; padding: 10px;}
+footer > p {text-align: center; color: whitesmoke; margin: 0px;}
+footer > p > strong {color: white;}
+
+a {color: green;}
+
+
+aside {background-color: rgba(109, 227, 162, 0.537);
+margin: auto;
+padding: 5px 20px;
+border-radius: 0px 0px 20px 20px;
+box-shadow: 3px 3px 8px rgba(1, 42, 1, 0.521);
+}
+h3 {background-color: green;
+    color: white; 
+    margin: 20px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 20px;
+    box-shadow: 3px 3px 8px rgba(1, 42, 1, 0.521);
+}
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+   
+    
