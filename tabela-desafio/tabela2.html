@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Desafio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+            text-align: center;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            height: 10px;
+            padding: 10px;
+        }
+        thead > tr > th, .media {
+            background-color: gray;
+            color: white;
+        }
+        #container {
+            overflow-x: auto;
+        }
+       /* overflow: auto  fixa a página e coloca a rolagem apenas na tabela */
+    
+    </style>
+</head>
+<body> <h1>Tabelas responsivas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores impedit nostrum recusandae! Hic nemo reprehenderit similique iure voluptates quam animi fugit explicabo quaerat suscipit, tempora a sunt saepe, qui unde!</p>
+    <div id="container">
+        <table>
+            <caption>
+            Médias
+            </caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplinas</th>
+                    <th colspan="2" scope="colgroup">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>9,5</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>8,5</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                </tr>
+                <tr class="media">
+                    <th colspan="4" scope="row" >Média de Exatas</th>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
+                    <td>História</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>8</td>
+                </tr>
+                <tr class="media">
+                    <th colspan="4" scope="row">Média Humanas</th>
+                    <td>9</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="4" style="background-color: black; color: white;">Média Total</th>
+                <td style="background-color: green; color: white;">9</td>
+            </tfoot>
+        </table>
+    </div>
+    
+</body>
+</html>
